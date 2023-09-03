@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fascinate&family=Playfair+Display&display=swap");
 
 .home {
-  background-image: url("/disco.jpg");
+  /* background-image: url("/disco.jpg"); */
   background-size: cover;
   height: 100vh;
   font-family: "Fascinate";
@@ -14,39 +14,59 @@
   justify-content: space-between;
   /* background: transparent; */
   padding: 25px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: rgb(248, 133, 210);
   /* background-color: rgba(0, 0, 0, 0.5); */
+  background-color: rgb(59, 17, 114, 0.25);
   /* background-color: black; */
 }
 
 .NavBar a {
-  padding: 5px;
-  background-color: rgb(80, 22, 156);
-  border-radius: 25px;
-  border: 2px rgb(80, 22, 156) solid;
+  /* padding: 5px 10px 5px 10px; */
+  /* background-color: rgb(80, 22, 156, 0.5); */
+  /* border-radius: 15px; */
 }
 
 .logo {
-  /* border: 1px solid green; */
   background-image: url("/logo.png");
-  /* height: 20%; */
+  position: absolute;
   background-size: cover;
-  height: 82%;
-  top: 1px;
-  /* padding-left: 25px; */
+  top: -100px;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
 }
 
 .navItems {
   display: flex;
   justify-content: space-between;
-  width: 35%;
+  width: 30%;
+  gap: 2rem;
 }
 
-.navItems a {
-  /* border: 1px solid yellow; */
-  /* padding: 5px;
-  background-color: rgb(80, 22, 156);
-  border-radius: 25px;
-  border: 2px rgb(80, 22, 156) solid; */
+/* Card Css */
+.container {
+  border: 15px solid pink;
+  background-color: black;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cardHome {
+  /* border: 1px green solid; */
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+  /* grid-column: 1; */
+  margin-top: 35%;
+  height: 100%;
+}
+
+.cardTitle {
+  display: flex;
+  justify-content: center;
 }

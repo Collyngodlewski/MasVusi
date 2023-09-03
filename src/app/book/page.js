@@ -1,7 +1,12 @@
 import React from "react";
+import NavBar from "../../../components/navbar";
 
 function page() {
-  return <div>Book Her!</div>;
+  return (
+    <div>
+      <NavBar /> Book Her!
+    </div>
+  );
 }
 
 export default page;

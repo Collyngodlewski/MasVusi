@@ -8,9 +8,7 @@ function NavBar() {
       {/* <div className={styles.logo}>MasVusi</div> */}
       <Link href={"/"}>MasVusi</Link>
       <div className={styles.navItems}>
-        <Link className="links" href={"/about"}>
-          About
-        </Link>
+        <Link href={"/about"}>About</Link>
         <Link href={"/events"}>Events</Link>
         <Link href={"/projects"}>Projects</Link>
         <Link href={"/book"}>Book Her!</Link>
